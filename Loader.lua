@@ -13,6 +13,9 @@ elseif id == 7546582051 then
 elseif id == 9792947201 then
     -- Slime RNG
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ValorantIsKewl/Nihility-Hub/refs/heads/main/Games/sRNG.lua"))()
+elseif id == 985731078 then
+    -- World // Zero
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ValorantIsKewl/Nihility-Hub/refs/heads/main/Games/WZ.lua"))()
 else
     warn("Game Not Supported!")
 end
